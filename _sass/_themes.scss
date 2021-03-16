@@ -5,7 +5,7 @@
 :root {
   --global-bg-color: #{$white-color};
   --global-text-color: #{$black-color};
-  --global-theme-color: #{$purple-color};
+  --global-theme-color: #{$purple-color};;
   --global-hover-color: #{$light-purple-color};
   --global-footer-bg-color: #{$grey-color-dark};
   --global-footer-text-color: #{$grey-color-light};
@@ -23,8 +23,8 @@
 }
 
 html[data-theme='dark'] {
-  --global-bg-color: #{$grey-color-dark};
-  --global-text-color: #{$grey-color-light};
+  --global-bg-color: #{$monokai-bg};
+  --global-text-color: #{$monokai-fg};
   --global-theme-color: #{$cyan-color};
   --global-hover-color: #{$light-cyan-color};
   --global-footer-bg-color: #{$grey-color-light};
